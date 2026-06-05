@@ -53,7 +53,7 @@ Designed and shipped a microservice restaurant menu designer (MongoDB, auth, Nex
 
 ## This repo
 
-Personal portfolio site built with **Next.js 15 App Router** · TypeScript · custom CSS design system. All content lives in a single [`content.json`](./content.json) — edit that file to update any copy without touching components.
+Personal portfolio site built with **Next.js 16 App Router** · TypeScript · custom CSS design system. All content lives in a single [`content.json`](./content.json) — edit that file to update any copy without touching components.
 
 ```bash
 npm install
