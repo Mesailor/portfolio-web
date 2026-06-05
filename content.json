@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Aleksei Nikolskii — Full-Stack Developer",
+    "description": "Aleksei Nikolskii — Full-Stack Developer available for freelance. Scalable Go microservices and polished Next.js interfaces."
+  },
+  "person": {
+    "name": "Aleksei Nikolskii",
+    "initials": "AN",
+    "title": "Full-Stack Engineer",
+    "availability": "Available for freelance · GMT+4 · Remote",
+    "headline": ["Full-stack", "developer who", "ships **production**."],
+    "lede": "I build **scalable Go microservices** and **polished Next.js interfaces** — bridging heavy distributed systems and clean frontend execution for product-focused teams.",
+    "location": "Tbilisi, GE",
+    "timezone": "GMT+4",
+    "focus": "Go · Next.js",
+    "experienceLabel": "Full-Stack",
+    "status": "available for projects",
+    "specCard": [
+      { "label": "role", "val": "Full-Stack Engineer" },
+      { "label": "location", "val": "Tbilisi · GMT+4" },
+      { "label": "backend", "val": "Go · gRPC · Postgres" },
+      { "label": "frontend", "val": "Next.js · React · TS" },
+      { "label": "open source", "val": "shadcn-chat" },
+      { "label": "status", "val": "available for projects", "isStatus": true }
+    ],
+    "chips": ["Golang", "Next.js", "TypeScript", "Redis", "Docker", "gRPC"]
+  },
+  "about": {
+    "lead": "I thrive in autonomous, product-focused teams where engineering velocity matches long-term architecture health.",
+    "bio": [
+      "My approach couples robust backend performance with responsive, accessible user experiences. On the backend I design Go microservices with gRPC, Redis caching and tuned Postgres; on the frontend I ship clean Next.js App Router interfaces with a sharp eye for state, structure and reuse.",
+      "Beyond client work I build in the open — I'm the creator of <a href=\"https://github.com/Mesailor/shadcn-chat\" target=\"_blank\" rel=\"noopener\">shadcn-chat</a>, a React component library that streamlines chat-interface development inside the shadcn/ui ecosystem."
+    ],
+    "skills": [
+      {
+        "category": "Backend & Systems",
+        "items": [
+          "Go · gRPC · Protocol Buffers",
+          "Fiber · Bun ORM · REST design",
+          "PostgreSQL · Redis caching",
+          "Microservices architecture"
+        ]
+      },
+      {
+        "category": "Frontend",
+        "items": [
+          "React · Next.js (App Router)",
+          "TypeScript · SSR / CSR strategies",
+          "Tailwind · Redux · Context API",
+          "WCAG accessibility"
+        ]
+      },
+      {
+        "category": "DevOps & Tooling",
+        "items": [
+          "Docker · Containerization",
+          "Vercel · CI/CD pipelines",
+          "Git · Agile / sprint delivery",
+          "Claude Code velocity"
+        ]
+      },
+      {
+        "category": "Testing & Quality",
+        "items": [
+          "Jest · Vitest",
+          "React Testing Library",
+          "Playwright (E2E)",
+          "i18n · internationalization"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Phone2",
+      "span": "Jan 2025 – Apr 2026 · 1 yr 4 mo",
+      "location": "Tbilisi, Georgia",
+      "roles": [
+        {
+          "title": "Full-Stack Developer · Next.js + Go",
+          "dates": "Jan – Apr 2026",
+          "bullets": [
+            "Owned a full **Contact Tags system across 6 microservice repos** — Go gRPC service, REST gateway and the entire React filtering UI.",
+            "Migrated in-memory caches to **Redis across 3 Go services**, eliminating state drift between concurrent instances."
+          ]
+        },
+        {
+          "title": "Middle Frontend Developer",
+          "dates": "Jul – Dec 2025",
+          "bullets": [
+            "Built the **Call Flow Editor** — a node-based UI for phone-automation workflows with step validation and complex state.",
+            "Shipped **i18n across 5 languages** and mentored a junior developer through code reviews."
+          ]
+        },
+        {
+          "title": "Junior Frontend Developer",
+          "dates": "Jan – Jun 2025",
+          "bullets": [
+            "Built Next.js App Router pages with mixed **SSR / CSR** rendering and Server/Client components.",
+            "Delivered a multi-step TCR/CSP compliance form with branching fields and Zod validation."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CryptoScreener",
+      "span": "Dec 2024 – Jan 2025 · 2 mo",
+      "location": "Tbilisi, Georgia",
+      "roles": [
+        {
+          "title": "Full-Stack Developer",
+          "dates": "Dec 2024 – Jan 2025",
+          "bullets": [
+            "Maintained a legacy Next.js/React app, optimizing dashboards and graphs and wiring a from-scratch UI to the existing GraphQL API.",
+            "Built a **Telegram bot for infrastructure failure alerts**."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "plateware.io",
+      "span": "Apr – Dec 2024 · 9 mo",
+      "location": "Tbilisi · Digital Menu Designer",
+      "roles": [
+        {
+          "title": "Full-Stack Developer",
+          "dates": "Apr – Dec 2024",
+          "bullets": [
+            "Designed and shipped a **microservice-based restaurant menu designer** — full CRUD/REST on MongoDB, auth, and a Next.js + shadcn/ui storefront from Figma.",
+            "Built a critical **Poster POS integration** routing digital-menu orders straight to the venue's terminal, and Dockerized services for deploy."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "kind": "Open Source · Featured",
+      "featured": true,
+      "title": "shadcn-chat",
+      "description": "A customizable, accessible chat-window component library built for the shadcn/ui ecosystem — reusable, well-tested React + Tailwind components, paired with a full-stack showcase app. Built with best-practice component architecture and WCAG accessibility in mind.",
+      "tags": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "shadcn/ui",
+        "Vitest",
+        "RTL",
+        "Playwright"
+      ],
+      "github": "https://github.com/Mesailor/shadcn-chat",
+      "live": "https://shadcn-chat.vercel.app"
+    },
+    {
+      "kind": "Open Source",
+      "featured": false,
+      "title": "CV Builder",
+      "description": "A TypeScript CLI that converts a YAML-formatted CV into a cleanly styled PDF — config-as-data résumés, versioned in git.",
+      "tags": ["TypeScript", "Node.js", "YAML", "Jest"],
+      "github": "https://github.com/Mesailor/yaml-resume-builder"
+    },
+    {
+      "kind": "Client Work · plateware.io",
+      "featured": false,
+      "title": "Digital Menu Designer",
+      "description": "A microservice-based restaurant menu builder with full CRUD on MongoDB, a Next.js + shadcn/ui storefront, and a live Poster POS order integration.",
+      "tags": ["Next.js", "MongoDB", "Redux", "Docker"]
+    }
+  ],
+  "services": [
+    {
+      "no": "01",
+      "title": "Full-Stack Web Apps",
+      "description": "End-to-end product features from database to UI — Next.js front ends backed by Go or Node services, owned across every microservice in the path.",
+      "tech": "Next.js · Go · REST · MongoDB / Postgres"
+    },
+    {
+      "no": "02",
+      "title": "APIs & Microservices",
+      "description": "Robust backend services with clean contracts — gRPC and REST gateways, Bun ORM data models, auth flows and service-to-service integration.",
+      "tech": "Go · gRPC · Protocol Buffers · Fiber"
+    },
+    {
+      "no": "03",
+      "title": "Frontend Architecture",
+      "description": "Polished, accessible React/Next.js interfaces with sensible state management, reusable component systems and SSR/CSR strategy that fits the product.",
+      "tech": "React · TypeScript · Tailwind · WCAG"
+    },
+    {
+      "no": "04",
+      "title": "Performance & Infra",
+      "description": "Latency wins where they count — Redis caching, Postgres index tuning, server-side pagination and Dockerized deploys with CI/CD.",
+      "tech": "Redis · Postgres · Docker · CI/CD"
+    }
+  ],
+  "contact": {
+    "heading": "Available for projects — let's talk.",
+    "sub": "Have a product to build or a backend to scale? I'm open to freelance work and would love to hear about it. Fastest reply over email or Telegram.",
+    "primaryLabel": "Email me",
+    "primaryHref": "mailto:worknikolskii@gmail.com",
+    "secondaryLabel": "Message on Telegram",
+    "secondaryHref": "https://t.me/aleksei_nikolskii",
+    "links": [
+      {
+        "label": "Email",
+        "value": "worknikolskii@gmail.com",
+        "href": "mailto:worknikolskii@gmail.com",
+        "icon": "email"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "in/aleksei-nikolskii",
+        "href": "https://www.linkedin.com/in/aleksei-nikolskii",
+        "icon": "linkedin"
+      },
+      {
+        "label": "GitHub",
+        "value": "@Mesailor",
+        "href": "https://github.com/Mesailor",
+        "icon": "github"
+      },
+      {
+        "label": "Telegram",
+        "value": "@aleksei_nikolskii",
+        "href": "https://t.me/aleksei_nikolskii",
+        "icon": "telegram"
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/Mesailor" },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aleksei-nikolskii"
+      },
+      { "label": "Telegram", "href": "https://t.me/aleksei_nikolskii" }
+    ],
+    "copy": "© 2026 · Built in Tbilisi"
+  }
+}
