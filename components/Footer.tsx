@@ -9,7 +9,6 @@ export default function Footer({ footer, name }: FooterProps) {
   return (
     <footer className="footer">
       <div className="wrap footer-inner">
-        <div className="fbrand">{name}</div>
         <div className="flinks">
           {footer.links.map((link) => (
             <a
